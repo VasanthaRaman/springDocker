@@ -5,7 +5,7 @@ services:
    network_mode: bridge
    restart: always
    container_name: spring_docker
-   image: testimg
+   image: testimg:assgn
    Build:
      context: .
      dockerfile: Dockerfile
